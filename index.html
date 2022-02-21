@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Form Creation
+		</title>
+	</head>
+	<body>
+		<table border="1" cellpadding="10" cellspacing="10" width="1140" align="center" bgcolor="Aquamarine">
+			<tr>
+				<td width="40%" valign="top"> 
+					<h2 align="center">Login form</h2>
+					<form>
+					<table width="100%" border="1">
+					<tr>
+						<td>
+							<label>
+							Email or Phone
+							<br>
+							<input type="text" size="70">
+							</label>
+						</td>
+					</tr>
+					<tr>
+						<td td width="70%">
+							<label>
+							Password
+							<br>
+							<input type="password" size="70">
+							</label>
+						</td>
+					</tr>
+					<tr>
+						<td align="center">
+							<input type="submit" value="Log In">
+						</td>
+					</tr>
+					</table>
+					</form>
+				</td>
+				<td width="60%" >
+					<h2 align="center">Registration Form</h2>
+					<form>
+						<table border="0" cellpadding="10" cellspacing="10" width="100%" align="center">
+							<tr>
+								<td>
+									<label for="name">
+									 Name
+									 </label>
+								</td>
+								<td>:</td>
+								<td>
+									<input type="text" placeholder="Please Enter Your Name" id="name" size="40">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label id="fn"> Father's Name </label>
+								</td>
+								<td>:</td>
+								<td>
+									<input type="text" placeholder="Please Enter Your Father Name" id="fn" size="40">
+							</tr>
+							<tr>
+								<td>
+									<label for="mn">
+									Mother Name
+									</label>
+								</td>
+								<td>:</td>
+								<td>
+								<input type="text" placeholder="Enter Your Mother name" id="mn" size="40">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="em">
+									Email Address
+									</label>
+								</td>
+								<td>:</td>
+								<td>
+								<input type="email" placeholder="Enter Your Email Address" id="em" size="40">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="ps">
+									Password
+									</label>
+								</td>
+								<td>:</td>
+								<td>
+								<input type="password" placeholder="Enter Your Password" id="ps" size="40">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="db">
+									Date of Birth
+									</label>
+								</td>
+								<td>:</td>
+								<td>
+								<input type="day" id="db" name="db" size="5" placeholder="Date">
+								<input type="month" id="db" name="db" size="10" placeholder="Month">
+								<input type="year" id="db" name="db" size="15" placeholder="Year">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="age">Age</label>
+								</td>
+								<td>:</td>
+								<td>
+									<input type="number" min="18" max="30" id="Age">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label>
+									Gender
+									</label>
+								</td>
+								<td>:</td>
+								<td>
+									<label>
+										<input type="radio" name="Gender">
+										Male
+									</label>
+									<label>
+										<input type="radio" name="Gender">
+										Female
+									</label>
+									<label>
+										<input type="radio" name="Gender">
+										Others
+									</label>
+									
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="ad">
+									Address
+									</label>
+								</td>
+								<td>:</td>
+								<td>
+								<textarea rows="8" cols="30" placeholder="Enter Your Address"></textarea>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="cn">
+									Contact No.
+									</label>
+								</td>
+								<td>:</td>
+								<td>
+								<input type="tel" maxlength="11" id="cn" placeholder="Enter Your Phone Number" size="40" >
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label>
+									Blood Group
+									</label>
+								</td>
+								<td>:</td>
+								<td>
+									<select>
+										<optgroup label="Positive">
+											<option> O+</option>
+											<option> A+</option>
+											<option> B+</option>
+											<option> AB+</option>
+										</optgroup>
+										<optgroup label="Negative">
+											<option> O-</option>
+											<option> A-</option>
+											<option> B-</option>
+											<option> AB-</option>
+										</optgroup>
+									</select>
+								</td>
+							</tr>
+							<tr>	
+								<td>
+									<label> Status </label>
+								</td>
+								<td>:</td>
+								<td>
+									<label>
+										<input type="checkbox" name="Status">
+										Student
+									</label>
+									<label>
+										<input type="checkbox" name="Status">
+										Employer
+									</label>
+									<label>
+										<input type="checkbox" name="Status">
+										Service Holder
+									</label>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="im"> Photo </label>
+								</td>
+								<td>:</td>
+								<td>
+									<input type="file" id="im">
+								</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td>
+								<input type="submit" value="Submit" size="30">
+								<input type="reset" size="30">
+								</td>
+							</tr>
+						</table>
+					</form>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
